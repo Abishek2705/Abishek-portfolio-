@@ -1,2 +1,0 @@
-# Abishek-portfolio-
-My resume
