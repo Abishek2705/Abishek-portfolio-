@@ -123,3 +123,11 @@ font-display: block;
 margin-bottom: 0px;
 padding: 5px;
 }
+.auto-grid {
+  display: grid;
+  /* Automatically create as many columns as will fit. 
+     Never let them get smaller than 250px. 
+     If there's extra space, stretch to fill it (1fr). */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
